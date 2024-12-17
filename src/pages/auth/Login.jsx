@@ -18,6 +18,18 @@ const Login = () => {
 
   return (
     <StyledAuth>
+            <div
+        style={{
+          padding: "1rem",
+          marginBottom: "2rem",
+          background: "white",
+          color: "black",
+        }}
+      >
+        For admin panel use this credentials:
+        <p>email - patelnisarg2002@gmail.com</p>
+        <p>pass - Nisarg2002@</p>
+      </div>
       <Form onSubmit={handleSubmit(onSubmit)} width="350px">
         <Form.Header>
           <MdOutlineLock size={27} />
